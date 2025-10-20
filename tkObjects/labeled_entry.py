@@ -1,7 +1,7 @@
 import tkinter as tk
 
 
-class LabelEntryFrame(tk.Frame):
+class LabeledEntry(tk.Frame):
     def __init__(self, parent, label_text, label_width=None, entry_width=None):
         super().__init__(parent)
 

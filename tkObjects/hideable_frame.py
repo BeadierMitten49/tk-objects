@@ -1,7 +1,7 @@
 import tkinter as tk
 
 
-class HidebleFrame(tk.Frame):
+class HideableFrame(tk.Frame):
     def show(self):
         self.pack(fill=tk.BOTH, expand=True)
 
