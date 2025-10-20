@@ -7,3 +7,6 @@ from .labeled_text_field import LabelTextField
 from .loading_frame import LoadingFrame
 from .loading_window import LoadingWindow
 from .sortable_tree_view import SortableTreeview
+from .data_flow_frame import DataFlowFrame
+from .files_selector import FilesSelector
+from .flow_frame import FlowFrame
