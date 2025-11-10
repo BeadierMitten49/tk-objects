@@ -11,3 +11,4 @@ from .data_flow_frame import DataFlowFrame
 from .files_selector import FilesSelector
 from .flow_frame import FlowFrame
 from .app import App
+from .buttons_list import ButtonsList
