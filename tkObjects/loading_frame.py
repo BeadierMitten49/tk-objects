@@ -1,8 +1,8 @@
-from .hideable_frame import HidebleFrame
+from .hideable_frame import HideableFrame
 from tkinter import ttk
 
 
-class LoadingFrame(HidebleFrame):
+class LoadingFrame(HideableFrame):
     def __init__(self, parent):
         super().__init__(parent)
 
