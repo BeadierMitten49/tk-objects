@@ -58,6 +58,7 @@ class ButtonsList(tk.Frame):
             "__title__": self._title,
             "__line__": self._line,
         }
+        self.pack_buttons()
 
     # === Widget creation ===
     def _create_widget(self, text, command):
@@ -119,8 +120,3 @@ class ButtonsList(tk.Frame):
                 widget.pack(fill=tk.X, pady=5)
             else:
                 widget.pack(fill=tk.X, pady=2)
-
-    def pack(self, *args, **kwargs):
-        """Overrides pack() to automatically generate and pack the widgets."""
-        super().pack(*args, **kwargs)
-        self.pack_buttons()
