@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import filedialog, ttk
-from data_flow_frame import DataFlowFrame
+from .data_flow_frame import DataFlowFrame
 
 
 class FilesSelector(tk.Frame):

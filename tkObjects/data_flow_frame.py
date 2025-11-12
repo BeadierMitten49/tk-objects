@@ -1,5 +1,5 @@
 import tkinter as tk
-from flow_frame import FlowFrame
+from .flow_frame import FlowFrame
 
 
 # ──────────────────────────────────────────────────────────────
